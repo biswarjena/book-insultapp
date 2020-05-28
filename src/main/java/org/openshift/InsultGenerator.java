@@ -10,7 +10,7 @@ public class InsultGenerator {
 		String vowels = "AEIOU";
 		String article = "an";
 		String theInsult = "";
-
+		
 		try {
 			String databaseURL = "jdbc:postgresql://";
 			databaseURL += System.getenv("POSTGRESQL_SERVICE_HOST");
